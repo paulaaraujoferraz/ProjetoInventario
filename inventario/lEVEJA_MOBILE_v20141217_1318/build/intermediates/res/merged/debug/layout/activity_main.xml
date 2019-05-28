@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+
+    android:excludeFromRecents="true"
+    android:noHistory="true"
+
+
+    >
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:text="DigitalClock"
+        android:textColor="@color/Preto"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/btnregistrar"
+        android:layout_width="114dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/digitalClock1"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="-11dp"
+        android:layout_toLeftOf="@+id/digitalClock1"
+        android:background="@null"
+        android:onClick="executaOpcao"
+        android:src="@drawable/btn_registra" />
+
+    <ImageButton
+        android:id="@+id/btnconfirmar"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnregistrar"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/digitalClock1"
+        android:background="@null"
+        android:onClick="executaOpcao"
+        android:src="@drawable/btn_camera" />
+
+    <TextView
+        android:id="@+id/txtnomeentregador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Vermelho" />
+
+    <TextView
+        android:id="@+id/txtmensagem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnregistrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/vermelhoclaro1" />
+
+    <TextView
+        android:id="@+id/txtmensagem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmensagem1"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/vermelhoclaro1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:text="Conferente:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Preto" />
+
+
+    <TextView
+        android:id="@+id/latitudeo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff0e0e0e"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/longitudeo1"
+        android:layout_alignStart="@+id/longitudeo1"
+        android:layout_below="@+id/txtmensagem2"
+        android:layout_alignRight="@+id/txtmensagem2"
+        android:layout_alignEnd="@+id/txtmensagem2" />
+
+    <TextView
+        android:id="@+id/longitudeo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff202020"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_toStartOf="@+id/textView2"
+        android:layout_below="@+id/latitudeo1"
+        android:layout_alignRight="@+id/txtmensagem2"
+        android:layout_alignEnd="@+id/txtmensagem2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Inventário"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

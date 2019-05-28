@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/txtnumnota"
+        android:layout_alignBottom="@+id/txtnumnota"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtempresa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtempresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Mercado"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtnumnota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="n nota"
+        android:textColor="@color/Vermelho"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtDatahoraleitura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtnumnota"
+        android:text="Dt Inseriu:"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/txtendereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtDatahoraleitura"
+        android:text="End"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtendereco"
+        android:text="Nome"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtvolumes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtnome"
+        android:text="Volumes"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/txtprioridade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtvolumes"
+        android:text="Prioridade"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="14sp" />
+
+
+
+
+
+</RelativeLayout>

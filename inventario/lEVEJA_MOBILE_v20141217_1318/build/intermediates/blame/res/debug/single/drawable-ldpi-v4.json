@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Pro\\ProjetoInventario\\inventario\\zBAR_LIB\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_confirma_entrega.jpg",
+        "source": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\src\\main\\res\\drawable-ldpi\\btn_confirma_entrega.jpg"
+    },
+    {
+        "merged": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo.jpg",
+        "source": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\src\\main\\res\\drawable-ldpi\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_registra.jpg",
+        "source": "C:\\Pro\\ProjetoInventario\\inventario\\lEVEJA_MOBILE_v20141217_1318\\src\\main\\res\\drawable-ldpi\\btn_registra.jpg"
+    }
+]

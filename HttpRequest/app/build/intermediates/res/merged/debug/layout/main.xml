@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:scrollbars="vertical">
+	<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:id="@+id/searchTableLayoutMain">
+
+
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:id="@+id/searchTableLayoutHeader">
+
+				<TableRow android:id="@+id/TableRow01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+					<TextView android:layout_width="fill_parent" android:id="@+id/lbl"
+						android:layout_height="wrap_content" android:text="@string/hello" />
+				</TableRow>
+
+				<TableRow android:id="@+id/TableRow01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+					<Button android:text="@string/Button01" android:id="@+id/Button01"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:onClick="clickbutton"></Button>
+					<Button android:text="@string/Button02" android:id="@+id/Button02"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:onClick="clickbuttonRecieve"></Button>
+				</TableRow>
+
+			</TableLayout>
+
+			<TableLayout android:id="@+id/searchTableLayoutResult"
+				android:layout_margin="5dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+
+			</TableLayout>
+		</TableLayout>
+
+	</HorizontalScrollView>
+</ScrollView>

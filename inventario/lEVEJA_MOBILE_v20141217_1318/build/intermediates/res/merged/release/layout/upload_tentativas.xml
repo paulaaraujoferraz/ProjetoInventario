@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <!-- To display picture taken -->
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone" />
+
+    <!-- Videoview to preview recorded video  -->
+
+    <VideoView
+        android:id="@+id/videoPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/txt_font"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="31dp"
+        android:layout_weight="0.00"
+        android:height="@dimen/abc_action_bar_default_height_material"
+        android:background="@color/amareloclaro"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Transmitir Foto do Local da Tentativa"
+        android:textColor="@color/txt_font"
+        android:textStyle="bold"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="35dp"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>

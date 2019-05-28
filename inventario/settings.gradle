@@ -1,0 +1,2 @@
+include ':zBAR_LIB', ':httpclient-4.3.6', ':httpcore-4.3.3', ':httpmime-4.0', ':httpmime-4.0_2', ':httpmime-4.3.6'
+include ':lEVEJA_MOBILE_v20141217_1318'

@@ -1,0 +1,237 @@
+Flash e Auto-Foco
+Flash - Câmera Principal
+Foco Automático - Câmera Principal
+
+
+MODELOS DA Samsung
+OK: Galaxy Gran Prime Duos + ou 630
+OK: Galaxy Core 2 Duos + ou 500,00
+OK: Samsung GALAXY S5 + ou 1800,00
+OK: Galaxy A7 4G Duos + ou - 1000
+OK: Galaxy K Zoom + ou - 1500
+
+MODELOS Da LG
+
+LG L70 + OU - 450,00
+LG L80 + OU - 530,00
+LG 90 + OU - 550,00
+
+MODELO  DA ASUS
+
+ASUS ZenFone 5 + ou - 600,00
+
+
+
+Galaxy S4 E S5
+LG Optimus G e G2
+
+
+
+
+Estamos usando a NETWORK_PROVIDER (fixa rápidamente coordenadas, depende de torres de celular e pontos wi-fi, 
+onde tem torre próxima ou pontos wi-fi a precisão é muito boa)
+
+GPS_PROVIDER (precisão é boa, mas demora demais para fixar as coordenada inviável)
+
+PASSIVE_PROVIDER (além de demorar muito tem a me
+sma precisão do Network) 
+
+
+
+http://www.controlog.net.br/des/site/Mapa.php?lat=-15.7635397&lng=-47.8838145
+Versao GPS (demora muito)
+http://www.controlog.net.br/des/site/Mapa.php?lat=-15.76333589&lng=-47.88452462
+Passive 
+http://www.controlog.net.br/des/site/Mapa.php?lat=-15.7686433&lng=-47.8825322
+
+
+
+SELECT 
+DATA_HORA_CARGA_NF, concat(lat1,'.',lat2) lat, Concat(lng1,'.',lng2) lng, NUMERO_NOTA_FISCAL
+FROM app_nota_fiscal_controle
+WHERE id_nota = 8813 
+
+
+DICAS SOBRE GPS NO ANDROID
+http://www.botecodigital.info/android/pegando-a-posicao-gps-no-android/
+
+
+
+52141201104751000110550030004122801552521295
+
+
+Mostra como pegar a localização via GPS no Android
+
+http://www.thiengo.com.br/gps-triangulacao-de-antenas-e-locationsource-no-android
+
+Leve ja
+-15.802015, -47.959979
+
+http://maps.googleapis.com/maps/api/staticmap?center=-15.802015,-47.959979&zoom=21+&size=680x450&maptype=roadmap&sensor=false
+
+
+http://maps.googleapis.com/maps/api/staticmap?center=-15.795557,-47.893855&zoom=16+&size=2048x2048&maptype=roadmap&sensor=false
+
+
+http://maps.googleapis.com/maps/api/staticmap?center=-15.795557,-47.893855&zoom=21+&size=680x450&maptype=roadmap&sensor=true_or_false
+
+http://maps.googleapis.com/maps/api/staticmap?center=-15.795557,-47.893855&zoom=19+&size=1000x500&maptype=roadmap&sensor=true_or_false
+
+C:\Leveja\Leveja_Sistemas\Web\public_html\des\site\app_controlog\Controlog_v20150331
+
+
+/* ###################pegar coordenadas###################################*/
+
+LocationResult locationResult = new LocationResult(){
+    @Override
+    public void gotLocation(Location location){
+        //Usar a localizacao aqui FAZER O INSERT !
+    }
+};
+MyLocation myLocation = new MyLocation();
+myLocation.getLocation(this, locationResult);
+
+
+import java.util.Timer;
+import java.util.TimerTask;
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+
+public class MyLocation {
+    Timer timer1;
+    LocationManager lm;
+    LocationResult locationResult;
+    boolean gps_enabled=false;
+    boolean network_enabled=false;
+
+    public boolean getLocation(Context context, LocationResult result)
+    {
+        //É usado o callback LocationResult para passar as coordenadas para o codigo do usuario.
+        locationResult=result;
+        if(lm==null)
+            lm = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+
+        //se o provedor de localizacao nao estiver habilitado, teremos uma excecao.
+        try{gps_enabled=lm.isProviderEnabled(LocationManager.GPS_PROVIDER);}catch(Exception ex){}
+        try{network_enabled=lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);}catch(Exception ex){}
+
+        //Codigo para nao tentar fazer a leitura sem provedor de localizacao disponivel
+        if(!gps_enabled && !network_enabled)
+            return false;
+
+        if(gps_enabled)
+            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListenerGps);
+        if(network_enabled)
+            lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListenerNetwork);
+        timer1=new Timer();
+        timer1.schedule(new GetLastLocation(), 20000);
+        return true;
+    }
+
+    LocationListener locationListenerGps = new LocationListener() {
+        public void onLocationChanged(Location location) {
+            timer1.cancel();
+            locationResult.gotLocation(location);
+            lm.removeUpdates(this);
+            lm.removeUpdates(locationListenerNetwork);
+        }
+        public void onProviderDisabled(String provider) {}
+        public void onProviderEnabled(String provider) {}
+        public void onStatusChanged(String provider, int status, Bundle extras) {}
+    };
+
+    LocationListener locationListenerNetwork = new LocationListener() {
+        public void onLocationChanged(Location location) {
+            timer1.cancel();
+            locationResult.gotLocation(location);
+            lm.removeUpdates(this);
+            lm.removeUpdates(locationListenerGps);
+        }
+        public void onProviderDisabled(String provider) {}
+        public void onProviderEnabled(String provider) {}
+        public void onStatusChanged(String provider, int status, Bundle extras) {}
+    };
+
+    class GetLastLocation extends TimerTask {
+        @Override
+        public void run() {
+             lm.removeUpdates(locationListenerGps);
+             lm.removeUpdates(locationListenerNetwork);
+
+             Location net_loc=null, gps_loc=null;
+             if(gps_enabled)
+                 gps_loc=lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+             if(network_enabled)
+                 net_loc=lm.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+
+             //se tiver os dois valores, usar o mais atualizado
+             if(gps_loc!=null && net_loc!=null){
+                 if(gps_loc.getTime()>net_loc.getTime())
+                     locationResult.gotLocation(gps_loc);
+                 else
+                     locationResult.gotLocation(net_loc);
+                 return;
+             }
+
+             if(gps_loc!=null){
+                 locationResult.gotLocation(gps_loc);
+                 return;
+             }
+             if(net_loc!=null){
+                 locationResult.gotLocation(net_loc);
+                 return;
+             }
+             locationResult.gotLocation(null);
+        }
+    }
+
+    public static abstract class LocationResult{
+        public abstract void gotLocation(Location location);
+    }
+}
+
+        /* INICIO Tentando iniciar a classe GPS*/
+
+//        Intent i = new Intent(this , PosicaoUnicaActivity.class);
+//        startActivity(i);
+
+            LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+            locationManager.requestSingleUpdate(LocationManager.NETWORK_PROVIDER , new LocationListener() {
+                @Override
+                public void onStatusChanged(String arg0, int arg1, Bundle arg2) {
+                    Toast.makeText(getApplicationContext(), "Status alterado", Toast.LENGTH_LONG).show();
+                }
+                @Override
+                public void onProviderEnabled(String arg0) {
+                    Toast.makeText(getApplicationContext(), "Provider Habilitado", Toast.LENGTH_LONG).show();
+                }
+                @Override
+                public void onProviderDisabled(String arg0) {
+                    Toast.makeText(getApplicationContext(), "Provider Desabilitado", Toast.LENGTH_LONG).show();
+                }
+                @Override
+                public void onLocationChanged(Location location) {
+                    TextView latitude = (TextView) findViewById( R.id.latitude);
+                    TextView longitude = (TextView) findViewById( R.id.longitude);
+                    TextView time = (TextView) findViewById( R.id.time);
+                    TextView acuracy = (TextView) findViewById( R.id.Acuracy);
+                    TextView provider = (TextView) findViewById( R.id.provider);
+                    if( location != null ){
+                        Log.i("GPS", "location ok");
+                        latitude.setText( "Latitude: "+location.getLatitude() );
+                        longitude.setText( "Longitude: "+location.getLongitude() );
+                        acuracy.setText( "Precisão: "+location.getAccuracy()+"" );
+                        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+                        time.setText( "Data:"+sdf.format( location.getTime() ) );
+                        provider.setText( location.getProvider());
+                    }
+
+                }
+            }, null );
+        }
+
+        
+        /* FIM Tentando iniciar a classe GPS*/

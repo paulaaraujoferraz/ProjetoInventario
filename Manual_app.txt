@@ -1,0 +1,26 @@
+1) Quando Clica no Icone faz a conexão do IMEI validando:
+
+
+
+2) Inserindo nota fiscal:
+
+validando códigos de barras
+
+
+NO APP:
+No ConectaFacade.java
+private static String InserirNovaNotaURL = "http://caixapostallevejapec.hospedagemdesites.ws/levejamobile/v1/inserirnota"; 
+
+NO Webservices
+
+$res = $db->InserirNovaNota($codigobarras,$user_id);
+
+
+// checar se ja existe a nota no banco
+        if (!$this->VerificaDuplicidadeNota($num_nota)) {
+
+$stmt = $this->conn->prepare("SELECT NUMERO_NOTA_FISCAL from app_nota_fiscal_controle WHERE  DATE(`DATA_HORA_CARGA_NF`) = CURDATE() AND NUMERO_NOTA_FISCAL = ?");
+return $num_rows > 0;
+
+
+https://www.contasonline.com.br/planos

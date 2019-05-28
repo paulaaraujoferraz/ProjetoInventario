@@ -1,0 +1,102 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From LEVEJA_MOBILE_v20141217_1318:
+* .idea\
+* .idea\.name
+* .idea\LEVEJA_MOBILE_v20141217_1318.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* proguard-project.txt
+From ZBAR_LIB:
+* .idea\
+* .idea\.name
+* .idea\ZBAR_LIB.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ant.properties
+* build.properties
+* build.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In ZBAR_LIB:
+* AndroidManifest.xml => zBAR_LIB\src\main\AndroidManifest.xml
+* assets\ => zBAR_LIB\src\main\assets\
+* libs\armeabi-v7a\libiconv.so => zBAR_LIB\src\main\jniLibs\armeabi-v7a\libiconv.so
+* libs\armeabi-v7a\libzbarjni.so => zBAR_LIB\src\main\jniLibs\armeabi-v7a\libzbarjni.so
+* libs\armeabi\libiconv.so => zBAR_LIB\src\main\jniLibs\armeabi\libiconv.so
+* libs\armeabi\libzbarjni.so => zBAR_LIB\src\main\jniLibs\armeabi\libzbarjni.so
+* libs\x86\libiconv.so => zBAR_LIB\src\main\jniLibs\x86\libiconv.so
+* libs\x86\libzbarjni.so => zBAR_LIB\src\main\jniLibs\x86\libzbarjni.so
+* libs\zbar.jar => zBAR_LIB\libs\zbar.jar
+* res\ => zBAR_LIB\src\main\res\
+* src\ => zBAR_LIB\src\main\java\
+In LEVEJA_MOBILE_v20141217_1318:
+* AndroidManifest.xml => lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+* assets\ => lEVEJA_MOBILE_v20141217_1318\src\main\assets\
+* lint.xml => lEVEJA_MOBILE_v20141217_1318\lint.xml
+* res\ => lEVEJA_MOBILE_v20141217_1318\src\main\res\
+* src\ => lEVEJA_MOBILE_v20141217_1318\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

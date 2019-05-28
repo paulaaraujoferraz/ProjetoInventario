@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000	</color>
+    <color name="blackblue">#000066	</color>
+    <color name="white">#ff99ff</color>
+    <color name="whiteyellow">#FFFFCC	</color>
+    <string name="Button01">Send</string>
+    <string name="Button02">Receive</string>
+    <string name="app_name">Change numbers</string>
+    <string name="hello"/>
+</resources>

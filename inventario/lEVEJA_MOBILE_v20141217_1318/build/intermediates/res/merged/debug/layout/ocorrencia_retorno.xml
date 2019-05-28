@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:excludeFromRecents="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Registro de  Fotos da Ocorrência (até 10 fotos por conferência)"
+
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nrentrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="Conferência:"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Vermelho"
+        android:textSize="14sp" />
+
+
+ <!--   <Button
+        android:id="@+id/button2"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:width="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:maxHeight="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:maxWidth="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:minHeight="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:minWidth="@dimen/abc_action_bar_progress_bar_size"
+        android:text="Fotos da Ocorrência"
+        tools:minWidth="@dimen/abc_action_button_min_width_overflow_material" /> -->
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0.34"
+        android:background="@color/Branco"
+        android:src="@drawable/baixacomfoto" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:weightSum="1">
+
+
+        <!--    <EditText
+            android:id="@+id/edtobs"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.76"
+            android:cursorVisible="true"
+            android:editable="false"
+            android:ems="10"
+            android:fadingEdge="horizontal|vertical"
+            android:gravity="fill_horizontal"
+            android:hint="Digite "
+            android:inputType="textCapCharacters"
+            android:lineSpacingExtra="10sp"
+            android:shadowColor="#ff494949"
+            android:textColor="#ff1b1b1b"
+            android:typeface="monospace" />
+            -->
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff0e0e0e"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff202020"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+android {
+    useLibrary 'org.apache.http.legacy'
+}
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "br.com.invveiculos"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 27
+        versionName "Controlog"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:26.0.2'
+    compile 'com.android.support:support-v4:26.0.2'
+    compile files('httpclient-4.3.6/httpclient-4.3.6.jar')
+    compile files('httpcore-4.3.3/httpcore-4.3.3.jar')
+    compile files('httpmime-4.3.6/httpmime-4.3.6.jar')
+    compile 'me.drakeet.materialdialog:library:1.2.2'
+    compile group: 'cz.msebera.android', name: 'httpclient', version: '4.4.1.1'
+
+
+
+
+}
+dependencies {
+    compile project(':zBAR_LIB')
+    compile 'com.google.android.gms:play-services:7.5.0'
+
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}

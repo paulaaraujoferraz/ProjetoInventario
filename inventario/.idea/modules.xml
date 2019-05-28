@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/httpclient-4.3.6/httpclient-4.3.6.iml" filepath="$PROJECT_DIR$/httpclient-4.3.6/httpclient-4.3.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpcore-4.3.3/httpcore-4.3.3.iml" filepath="$PROJECT_DIR$/httpcore-4.3.3/httpcore-4.3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.0/httpmime-4.0.iml" filepath="$PROJECT_DIR$/httpmime-4.0/httpmime-4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.0_2/httpmime-4.0_2.iml" filepath="$PROJECT_DIR$/httpmime-4.0_2/httpmime-4.0_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.3.6/httpmime-4.3.6.iml" filepath="$PROJECT_DIR$/httpmime-4.3.6/httpmime-4.3.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventario.iml" filepath="$PROJECT_DIR$/inventario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lEVEJA_MOBILE_v20141217_1318/lEVEJA_MOBILE_v20141217_1318.iml" filepath="$PROJECT_DIR$/lEVEJA_MOBILE_v20141217_1318/lEVEJA_MOBILE_v20141217_1318.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zBAR_LIB/zBAR_LIB.iml" filepath="$PROJECT_DIR$/zBAR_LIB/zBAR_LIB.iml" />
+    </modules>
+  </component>
+</project>

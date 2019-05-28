@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:id="@+id/inserirnota2">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tentativa de Conferência Resultado"
+        android:textColor="@color/Laranja"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edtnumcodigobarras"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:shadowColor="#ff494949"
+            android:textColor="#ff1b1b1b" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="launchScanner"
+            android:src="@drawable/btn_camera"
+            app:srcCompat="@drawable/baixacomfoto" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/latitudeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat:"
+        android:textColor="#ff0e0e0e"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/longitudeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long:"
+        android:textColor="#ff202020"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#808080"
+        android:dividerHeight="1px"
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>

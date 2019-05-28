@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:excludeFromRecents="true"
+
+    android:orientation="vertical"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Códigos Conferidos"
+        android:textColor="@color/CinzaEscuro"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/teste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff1f1f1f" />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff2d0006" />
+
+        <EditText
+            android:id="@+id/edtnrentrega"
+            android:layout_width="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:shadowColor="#ff494949"
+            android:textColor="#ff1b1b1b"
+            android:hint="@string/abc_search_hint"
+
+            android:selectAllOnFocus="true"
+            android:background="@color/CinzaClaro"
+            android:layout_weight="0.53"
+            android:editable="false"
+            android:layout_marginTop="@dimen/abc_button_inset_horizontal_material"
+            android:paddingTop="@dimen/abc_list_item_padding_horizontal_material"
+            android:padding="@dimen/abc_button_padding_horizontal_material"
+            android:layout_gravity="center_vertical" />
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:onClick="pesquisar_entrega"
+            android:src="@drawable/search"
+            app:srcCompat="@drawable/search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_padding_vertical_material"
+        android:elevation="@dimen/abc_button_inset_horizontal_material"
+        android:text="Clique abaixo no produto ou pesquise código"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff161616"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Laranja"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#EB5502"
+        android:dividerHeight="1dp"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/Acuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Precisão:  " />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".PosicaoUnicaActivity">
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,334 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:9:1-152:12
+	package
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:10:5-32
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:11:5-51
+	xmlns:android
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:9:11-69
+	android:versionCode
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\paula\.android\build-cache\e5e1cbc998312d7139d6bdfdfadd0d3251cea5fb\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\paula\.android\build-cache\b43199157e7a8895e197ae94be355400159724f1\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\paula\.android\build-cache\e5e1cbc998312d7139d6bdfdfadd0d3251cea5fb\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\paula\.android\build-cache\73b6df53c0611c94fccfd16b5f2d2cb89e0803c5\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:21:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:26:5-65
+MERGED from [inventario:zBAR_LIB:unspecified] C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:26:22-62
+application
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:33:5-150:19
+MERGED from [inventario:zBAR_LIB:unspecified] C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\AndroidManifest.xml:15:5-20:19
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\paula\.android\build-cache\ddbd522c36f60219aa078c18869b31ae9464e064\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\paula\.android\build-cache\e5e1cbc998312d7139d6bdfdfadd0d3251cea5fb\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\paula\.android\build-cache\026fc8a2592d337598f7e55697ada7171a41efea\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\paula\.android\build-cache\b43199157e7a8895e197ae94be355400159724f1\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\paula\.android\build-cache\98ba73499879518a00b501e4c0f2d8d8378811d3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\paula\.android\build-cache\b5d33530080a814aaa919d19662e1e29c6561da8\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\paula\.android\build-cache\2bfc3eba8879f379c9c41e226d7b830d05b30951\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\74523e3d5816e629772bdf4a401bd5f0cbe7b5ef\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\65e2c9be56d2d6d3003a4c4f2a17ae6b426b3533\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\paula\.android\build-cache\e16934d5e3e4d665c59480cdb8c7e45a9ec753d2\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\paula\.android\build-cache\dc0903fdc59ec452658402c7cfe29986bdca0cbb\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\paula\.android\build-cache\c2ffda13d7bf65708398fc4b72c5fc086cc93484\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\paula\.android\build-cache\b4827537caad8111cdee3a649e1580541f7cf185\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\paula\.android\build-cache\e7ce1e76e7c109759e20c897b7d53d374a391730\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\paula\.android\build-cache\73b6df53c0611c94fccfd16b5f2d2cb89e0803c5\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\paula\.android\build-cache\1d78c4af8e0bf661dbb4dfef8eda6acb18638eef\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\paula\.android\build-cache\fc82fcb13f4b9ff3b9c8fc1ef24fe6e8646b7dd7\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\paula\.android\build-cache\390b73b4b9e9aa3d1df97b9547c4657dddf1ebc1\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\paula\.android\build-cache\64548ad9a848e14bfb9b3ed0cfdb19521bc871c6\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\paula\.android\build-cache\d4e4b0bbc10c351c3c2b7a6c3e9c61cb0d49064d\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\paula\.android\build-cache\d67ae8568319e3e4d25deecd7f32e3fa49a5f75d\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\paula\.android\build-cache\cfc3f166fd054999307503772fc3ed4402680e2d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\paula\.android\build-cache\024e19aeccd40bf0f831d0ff207db463e17c57f8\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\paula\.android\build-cache\37fce23aee17af8cb01009cb49140262ea359078\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\paula\.android\build-cache\8ed3d8733f277cf4ba3ad1d6fa8ec82dbe20027e\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\paula\.android\build-cache\0a233ce1fda17f7d526c24fe79b1b3bca36aaebd\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\paula\.android\build-cache\99210a77b57b3bb645bcf99cfe6d8487ee71858c\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:36:9-41
+		REJECTED from [inventario:zBAR_LIB:unspecified] C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\AndroidManifest.xml:15:18-43
+	android:supportsRtl
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:37:9-35
+	android:allowBackup
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:34:9-35
+	android:icon
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:35:9-38
+	android:theme
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:38:9-40
+	tools:replace
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:39:9-38
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:62:9-71:20
+	android:authorities
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:64:13-60
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:66:13-47
+	android:exported
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:63:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:67:13-69:57
+	android:resource
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:69:17-55
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:68:17-67
+uses-feature#android.hardware.camera
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:78:9-80:40
+	android:required
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:79:13-51
+meta-data#com.google.android.gms.version
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:86:9-88:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\paula\.android\build-cache\d67ae8568319e3e4d25deecd7f32e3fa49a5f75d\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:88:13-66
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:87:13-58
+activity#br.com.inventario.view.MainActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:90:9-98:20
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:91:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.MAIN
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:94:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:96:27-74
+activity#br.com.inventario.view.InserirNotaActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:102:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:101:13-53
+activity#br.com.inventario.view.RegitrarNotaEntregueActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:108:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:107:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:106:13-62
+activity#com.dm.zbar.android.scanner.ZBarScannerActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:109:9-112:53
+MERGED from [inventario:zBAR_LIB:unspecified] C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\AndroidManifest.xml:16:9-19:53
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:112:13-50
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:111:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:110:13-75
+activity#br.com.inventario.UploadActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:114:8-119:20
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:117:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:116:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:115:13-60
+activity#br.com.inventario.view.BaixacomrecebedorActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:121:6-126:20
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:122:13-76
+activity#br.com.inventario.Uploadtentativa
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:128:8-133:20
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:131:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:130:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:129:13-61
+activity#br.com.inventario.UploadOcorrenciaActivity
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:135:8-140:20
+	android:screenOrientation
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:138:13-49
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:137:13-45
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:136:13-70
+receiver#br.com.inventario.view.BroadcastReceiverAux
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:143:9-148:20
+	android:label
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:143:78-114
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:143:19-77
+intent-filter#ALARME_DISPARADO+android.intent.category.DEFAULT
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:144:11-147:29
+action#ALARME_DISPARADO
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:145:17-58
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:145:25-56
+category#android.intent.category.DEFAULT
+ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:146:17-75
+	android:name
+		ADDED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml:146:27-73
+uses-sdk
+INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [me.drakeet.materialdialog:library:1.2.2] C:\Users\paula\.android\build-cache\c15069123fc450d6654b145eea55bea030bb59aa\output\AndroidManifest.xml:8:5-10:41
+MERGED from [inventario:zBAR_LIB:unspecified] C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\paula\.android\build-cache\ddbd522c36f60219aa078c18869b31ae9464e064\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\paula\.android\build-cache\e5e1cbc998312d7139d6bdfdfadd0d3251cea5fb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\paula\.android\build-cache\026fc8a2592d337598f7e55697ada7171a41efea\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\paula\.android\build-cache\b43199157e7a8895e197ae94be355400159724f1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\paula\.android\build-cache\98ba73499879518a00b501e4c0f2d8d8378811d3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\paula\.android\build-cache\b5d33530080a814aaa919d19662e1e29c6561da8\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\paula\.android\build-cache\2bfc3eba8879f379c9c41e226d7b830d05b30951\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\74523e3d5816e629772bdf4a401bd5f0cbe7b5ef\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\65e2c9be56d2d6d3003a4c4f2a17ae6b426b3533\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\paula\.android\build-cache\e16934d5e3e4d665c59480cdb8c7e45a9ec753d2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\paula\.android\build-cache\dc0903fdc59ec452658402c7cfe29986bdca0cbb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\paula\.android\build-cache\c2ffda13d7bf65708398fc4b72c5fc086cc93484\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\paula\.android\build-cache\b4827537caad8111cdee3a649e1580541f7cf185\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\paula\.android\build-cache\e7ce1e76e7c109759e20c897b7d53d374a391730\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\paula\.android\build-cache\73b6df53c0611c94fccfd16b5f2d2cb89e0803c5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\paula\.android\build-cache\1d78c4af8e0bf661dbb4dfef8eda6acb18638eef\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\paula\.android\build-cache\fc82fcb13f4b9ff3b9c8fc1ef24fe6e8646b7dd7\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\paula\.android\build-cache\390b73b4b9e9aa3d1df97b9547c4657dddf1ebc1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\paula\.android\build-cache\64548ad9a848e14bfb9b3ed0cfdb19521bc871c6\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\paula\.android\build-cache\d4e4b0bbc10c351c3c2b7a6c3e9c61cb0d49064d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\paula\.android\build-cache\d67ae8568319e3e4d25deecd7f32e3fa49a5f75d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\paula\.android\build-cache\cfc3f166fd054999307503772fc3ed4402680e2d\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\paula\.android\build-cache\024e19aeccd40bf0f831d0ff207db463e17c57f8\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\paula\.android\build-cache\37fce23aee17af8cb01009cb49140262ea359078\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\paula\.android\build-cache\8ed3d8733f277cf4ba3ad1d6fa8ec82dbe20027e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\paula\.android\build-cache\0a233ce1fda17f7d526c24fe79b1b3bca36aaebd\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\paula\.android\build-cache\99210a77b57b3bb645bcf99cfe6d8487ee71858c\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+		INJECTED from C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\paula\.android\build-cache\a670cb4d46769a8807288c7e3ea3d8d7439a4bb2\output\AndroidManifest.xml:30:19-91
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\74523e3d5816e629772bdf4a401bd5f0cbe7b5ef\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\paula\.android\build-cache\65e2c9be56d2d6d3003a4c4f2a17ae6b426b3533\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\paula\.android\build-cache\cfc3f166fd054999307503772fc3ed4402680e2d\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\paula\.android\build-cache\024e19aeccd40bf0f831d0ff207db463e17c57f8\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\paula\.android\build-cache\37fce23aee17af8cb01009cb49140262ea359078\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\paula\.android\build-cache\8ed3d8733f277cf4ba3ad1d6fa8ec82dbe20027e\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\paula\.android\build-cache\0a233ce1fda17f7d526c24fe79b1b3bca36aaebd\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\paula\.android\build-cache\99210a77b57b3bb645bcf99cfe6d8487ee71858c\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\paula\.android\build-cache\fcba67b9b434764229a71589093b56526abe3eed\output\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:22:22-71
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:26:13-69
+receiver#com.google.android.gms.wallet.EnableWalletOptimizationReceiver
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:29:13-90
+intent-filter#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:31:13-33:29
+action#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:32:17-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\paula\.android\build-cache\8946b70c8cf66c7abce0eb4309ea7ddc4deb9a0a\output\AndroidManifest.xml:32:25-96
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:24:5-26:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:25:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\paula\.android\build-cache\3155664cd5075da3e8a8a4b7c4b5f0f3c23a005f\output\AndroidManifest.xml:26:8-31

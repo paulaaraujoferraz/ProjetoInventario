@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="75bd77485db18fa2f599d02508ffc44078a56406">
+        <dex dex="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\build\intermediates\pre-dexed\debug\classes_a8e498ba53727b1171ba2860700c5c979251cdee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\httpclient-4.3.6\httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\build\intermediates\pre-dexed\debug\httpclient-4.3.6_b4b402f9980a382263e812211aa2849ce22d85dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Pro\ProjetoInventario\inventario\zBAR_LIB\build\intermediates\bundles\default\libs\zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f109185c4ad13ec99defff852ae8b7875525fa4d">
+        <dex dex="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\build\intermediates\pre-dexed\debug\zbar_5f7acab7cf1f892ce6c17534bb084246a6d20919.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\httpcore-4.3.3\httpcore-4.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\build\intermediates\pre-dexed\debug\httpcore-4.3.3_351cbd3cadf6d5cb65bce3d65225219ab9e2a849.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\httpmime-4.3.6\httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="C:\Pro\ProjetoInventario\inventario\lEVEJA_MOBILE_v20141217_1318\build\intermediates\pre-dexed\debug\httpmime-4.3.6_ff3fec83446df4614d81c1ea56ede638126dfbf7.jar" />
+    </item>
+
+</items>
